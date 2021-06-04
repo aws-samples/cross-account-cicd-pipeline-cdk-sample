@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@aws-cdk/assert": "1.105.0",
+    "@aws-cdk/aws-codebuild": "1.105.0",
+    "@aws-cdk/aws-codecommit": "1.105.0",
+    "@aws-cdk/aws-codepipeline": "1.105.0",
+    "@aws-cdk/aws-codepipeline-actions": "1.105.0",
+    "@aws-cdk/aws-iam": "1.105.0",
+    "@aws-cdk/core": "1.105.0",
+    "@types/node": "^15.6.0",
+    "aws-cdk": "1.105.0",
+    "source-map-support": "^0.5.16",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}

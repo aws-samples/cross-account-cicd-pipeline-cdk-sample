@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "deploy": "cdk bootstrap && cdk deploy --require-approval never --all"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-lambda": "1.105.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.105.0",
+    "@aws-cdk/core": "1.105.0",
+    "@types/aws-lambda": "^8.10.76",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.0",
+    "aws-cdk": "1.105.0",
+    "esbuild": "^0.12.5",
+    "jest": "^27.0.1",
+    "source-map-support": "^0.5.16",
+    "ts-jest": "^27.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}
